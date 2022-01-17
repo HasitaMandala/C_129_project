@@ -44,7 +44,7 @@ function draw(){
         circle(leftWristX, leftWristY, 20);
         song_1.stop();
         if(song2_status == false){
-            song2.play();
+            song_2.play();
         document.getElementById("song").innerHTML = "playing Peter pan ";
         }
     }
@@ -52,7 +52,7 @@ function draw(){
             circle(rightWristX, rightWristY, 20);
             song_2.stop();
             if(song1_status == false){
-                song1.play();
+                song_1.play();
             document.getElementById("song").innerHTML = "playing Harry potter ";
             }
         }
